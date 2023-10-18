@@ -15,7 +15,13 @@ The Foundation collects donations for various targeted projects: for medical car
 * alembic
 * pydantic
 
-### Install 
+### Install
+.env structure:<br>
+`APP_TITLE=QRkot`<br>
+`APP_DESCRIPTION=Application for the Cat Charity Fund`<br>
+`DATABASE_URL=sqlite+aiosqlite:///./fastapi.db`<br>
+`SECRET=<SECRET_WORD>`<br><br>
+
 `git clone https://github.com/zakharovvladimir/cat_charity_fund.git`<br>
 `python -m venv venv`<br>
 `source venv/Scripts/activate`
