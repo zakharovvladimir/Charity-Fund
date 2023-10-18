@@ -16,8 +16,8 @@ The Foundation collects donations for various targeted projects: for medical car
 * pydantic
 
 ### Install 
-`git clone https://github.com/zakharovvladimir/cat_charity_fund.git`
-`python -m venv venv`
+`git clone https://github.com/zakharovvladimir/cat_charity_fund.git`<br>
+`python -m venv venv`<br>
 `source venv/Scripts/activate`
 
 ### How to use
