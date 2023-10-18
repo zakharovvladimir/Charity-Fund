@@ -1,3 +1,4 @@
+from http import HTTPStatus
 from typing import List
 
 from app.api import validators
@@ -22,7 +23,8 @@ async def get_all_charities(session: AsyncSession = Depends(get_async_session)):
     """Get all charities."""
     charities = await charity_crud.get_all(session)
     if not charities:
-        raise HTTPException(status_code=404, detail=NOT_FOUND_CHARITIES)
+        raise HTTPException(
+            status_code=HTTPStatus.NOT_FOUND, detail=NOT_FOUND_CHARITIES)
     return charities
 
 
