@@ -1,10 +1,10 @@
-# QRKot
+# Charity Fund
 
-## Application for the Cat Charity Fund
+## FastAPI Application for the Charity Fund
 
 ### Description 
 
-The Foundation collects donations for various targeted projects: for medical care, for setting up a cat colony in the basement, for food for abandoned cats - for any purpose related to the support of the feline population.
+The Foundation collects donations for various targeted projects: for medical care, for setting up pets colony in the basement, for food for abandoned pets - for any purpose related to the support of the feline population.
 
 ### Techs
 
